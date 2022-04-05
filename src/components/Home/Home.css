@@ -1,0 +1,35 @@
+.banner-area{
+    display: flex;
+}
+.content-area{
+    margin-top: 60px;
+}
+span{
+    color: orangered;
+}
+
+.content-area h1{
+    font-size: 48px;
+}
+
+.content-area p{
+    width: 75%;
+    padding: 20px 0 40px 0;
+    text-align: justify;
+}
+
+.content-btn{
+    padding: 20px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.content-btn:hover{
+    transition: .2s;
+    background-color: orange;
+    color: white;
+    border:2px solid orange;
+
+}
