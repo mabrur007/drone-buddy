@@ -4,6 +4,7 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <div>
+            <h2 className='blog-title'>QnA <span>Blogs</span></h2>
             <div className="qna-section">
                 <h2>Q. What is context api?</h2>
                 <p>

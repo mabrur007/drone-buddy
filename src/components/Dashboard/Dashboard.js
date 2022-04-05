@@ -1,15 +1,3 @@
-// import React from 'react';
-
-// const Dashboard = () => {
-//     return (
-//         <div>
-//             <h2>This is Dashboard page.</h2>
-//         </div>
-//     );
-// };
-
-// export default Dashboard;
-
 import React from "react";
 import "./Dashboard.css";
 import { CartesianGrid, YAxis, XAxis, Legend, Radar, PolarRadiusAxis, PolarAngleAxis, PolarGrid, RadarChart, BarChart, Tooltip, Bar, ResponsiveContainer} from "recharts";
@@ -20,6 +8,7 @@ const Dashboard = () => {
 
   return (
     <>
+        <h2 className="dashboard-title">Investment <span>Dashboard</span></h2>
         <div className="chart-section1">
             {/* Chart-1 */}
             <div className="chart-1">
@@ -71,7 +60,7 @@ const Dashboard = () => {
                 </ResponsiveContainer>
             </div>
           </div>
-        <h2 style={{'textAlign':'center'}}>Monthly Investment Report</h2>  
+        <h2 style={{'textAlign':'center','marginBottom':'60px'}}>Monthly Investment Report</h2>  
     </>
   );
 };

@@ -7,9 +7,9 @@ const Review = ({ review }) => {
     return (
         <div className='review'>
             <img src={img} alt="reviewer" />
-            <h4>Name:{name}</h4>
+            <h4>{name}</h4>
             <p> {says}</p>
-            <p>Ratings: <b>{ ratings}</b></p>
+            <p className='ratings'><span>Ratings:</span> <b>{ ratings}</b></p>
         </div>
     );
 };
