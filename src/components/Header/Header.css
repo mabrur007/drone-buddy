@@ -14,3 +14,14 @@
     color: orange;
     border-bottom: 2px solid orange;
 }
+
+@media screen and (max-width: 780px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header a{
+        font-size: 18px;
+        margin: 12px;
+    }
+}
