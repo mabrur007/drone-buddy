@@ -1,0 +1,19 @@
+.qna-section{
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+}
+.qna-section h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.qna-section h4{
+    margin-top: 20px;
+}
+
+ul{
+    margin: 12px 30px;
+}
