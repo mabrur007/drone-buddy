@@ -1,6 +1,6 @@
-# Project - Drone Buddy
+# Project: Drone Buddy
 
-Live site Link: []().
+Live site Link: [https://mabrur-drone-buddy.netlify.app/home](https://mabrur-drone-buddy.netlify.app/home).
 
 ## Project description
 
