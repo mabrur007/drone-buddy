@@ -1,11 +1,14 @@
-import React from 'react';
+import { useEffect, useState } from "react";
 
 const useDataLoad = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  const [chartData, setChartData] = useState([]);
+
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setChartData(data));
+  }, []);
+  return [chartData, setChartData];
 };
 
 export default useDataLoad;
