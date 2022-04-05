@@ -1,0 +1,13 @@
+.error{
+    margin-top: 120px;
+    text-align: center;
+    color: crimson;
+}
+
+.error h2{
+    font-size: 50px;
+}
+
+.error h4{
+    font-size: 30px;
+}
