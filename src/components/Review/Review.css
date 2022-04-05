@@ -1,0 +1,12 @@
+.review{
+    width: 300px;
+    border: 1px solid orangered;
+    border-radius: 6px;
+    padding: 40px 20px;
+    text-align: justify;
+}
+.review img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
